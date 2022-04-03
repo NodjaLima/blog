@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+  background-image: url(estrada.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+ .link {
+   color: rgb(33, 19, 34)
+ }
+
+ .link:hover {
+  background-color: beige;
+}
+
+ul { 
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  list-style-type: none;
+}
+
+a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  padding: 30px;
+  margin: 5% 25%;
+}
+
+
+img {
+  display: flex;
+  width: 150px;
+  padding: 35px;
+}
+  
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.li:hover {
+  background-color: black;
+}
+
+.texto {
+  margin: 5% 25%;
+  background-color: gray;
+  padding: 30px;
+}
+
+.voltar {
+  background: rgb(66, 63, 63);
+  display: flex;
+  ;
+}
+
+.texto2 {
+  align-items: center;
+  background-color: gray;
+  padding: 30px;
+  margin: 5% 25%;}
+
+  .perfilgit {
+    display: flex;
+    align-items: center;
+  }
+
+  .git {
+    margin: 0;
+
+  }
+
+  .forms {
+    width: 350px;
+  }
+
+  .formulario {
+    display: flex ;
+    flex-direction: column;
+  }
+
+  .tragetoria {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+    
